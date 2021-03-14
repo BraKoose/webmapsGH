@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5256c07ea427448eaedbb1d2d5c8c327 {
+                #map_0e41e188c3a648d58b3be8b98554ae14 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_5256c07ea427448eaedbb1d2d5c8c327" ></div>
+            <div class="folium-map" id="map_0e41e188c3a648d58b3be8b98554ae14" ></div>
         
 </body>
 <script>    
     
-            var map_5256c07ea427448eaedbb1d2d5c8c327 = L.map(
-                "map_5256c07ea427448eaedbb1d2d5c8c327",
+            var map_0e41e188c3a648d58b3be8b98554ae14 = L.map(
+                "map_0e41e188c3a648d58b3be8b98554ae14",
                 {
-                    center: [7.0, 1.0232],
+                    center: [6.6998, -1.6246],
                     crs: L.CRS.EPSG3857,
-                    zoom: 7,
+                    zoom: 20,
                     zoomControl: true,
                     preferCanvas: false,
                     titles: "Stamen Terrain",
@@ -56,9 +56,64 @@
 
         
     
-            var tile_layer_bac1687af4114f42bafe31174a68701f = L.tileLayer(
+            var tile_layer_57dccac7c94e42d3b42c8453a3412130 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_5256c07ea427448eaedbb1d2d5c8c327);
+            ).addTo(map_0e41e188c3a648d58b3be8b98554ae14);
+        
+    
+            var marker_0a9bda69f9af465fb458459b0f14c09a = L.marker(
+                [6.6719, -1.6068],
+                {}
+            ).addTo(map_0e41e188c3a648d58b3be8b98554ae14);
+        
+    
+            var icon_4f354775bff044469ff9549a383fc8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a9bda69f9af465fb458459b0f14c09a.setIcon(icon_4f354775bff044469ff9549a383fc8b6);
+        
+    
+        var popup_80b0f6c664ee47e1953f18f9902028aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2365ae9765b405e997f2be24fd685e5 = $(`<div id="html_d2365ae9765b405e997f2be24fd685e5" style="width: 100.0%; height: 100.0%;">This is Kejetia</div>`)[0];
+            popup_80b0f6c664ee47e1953f18f9902028aa.setContent(html_d2365ae9765b405e997f2be24fd685e5);
+        
+
+        marker_0a9bda69f9af465fb458459b0f14c09a.bindPopup(popup_80b0f6c664ee47e1953f18f9902028aa)
+        ;
+
+        
+    
+    
+            var marker_d2a857bd506b4d8eb507418a823bde32 = L.marker(
+                [6.6939, -1.6363],
+                {}
+            ).addTo(map_0e41e188c3a648d58b3be8b98554ae14);
+        
+    
+            var icon_594bb0982c4449cbb3735735ca144118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2a857bd506b4d8eb507418a823bde32.setIcon(icon_594bb0982c4449cbb3735735ca144118);
+        
+    
+        var popup_23a193565dbc41338c54ce2509747138 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34fe80f0e51849be9a6668516a74a90d = $(`<div id="html_34fe80f0e51849be9a6668516a74a90d" style="width: 100.0%; height: 100.0%;">This is Kejetia</div>`)[0];
+            popup_23a193565dbc41338c54ce2509747138.setContent(html_34fe80f0e51849be9a6668516a74a90d);
+        
+
+        marker_d2a857bd506b4d8eb507418a823bde32.bindPopup(popup_23a193565dbc41338c54ce2509747138)
+        ;
+
+        
+    
+    
+            var feature_group_f635353229b74e5787c07a1faece3cb6 = L.featureGroup(
+                {}
+            ).addTo(map_0e41e188c3a648d58b3be8b98554ae14);
         
 </script>
