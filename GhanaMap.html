@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e14ba2871c314ca8bc1a75fed98b7257 {
+                #map_5824ad25401c46948c343d0ebf116993 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,20 +35,20 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_e14ba2871c314ca8bc1a75fed98b7257" ></div>
+            <div class="folium-map" id="map_5824ad25401c46948c343d0ebf116993" ></div>
         
 </body>
 <script>    
     
-            var map_e14ba2871c314ca8bc1a75fed98b7257 = L.map(
-                "map_e14ba2871c314ca8bc1a75fed98b7257",
+            var map_5824ad25401c46948c343d0ebf116993 = L.map(
+                "map_5824ad25401c46948c343d0ebf116993",
                 {
                     center: [37.0902, 95.7129],
                     crs: L.CRS.EPSG3857,
-                    zoom: 10,
+                    zoom: 6,
                     zoomControl: true,
                     preferCanvas: false,
-                    titles: "Stamen Terrain",
+                    titles: "Koose",
                 }
             );
 
@@ -56,1564 +56,1192 @@
 
         
     
-            var tile_layer_14ed7ad25ccc463ab5ba8b7d4dcf821e = L.tileLayer(
+            var tile_layer_66af8075002044429a0e0ba5b94dcb6d = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+            ).addTo(map_5824ad25401c46948c343d0ebf116993);
         
     
-            var marker_259ae4a8d11a4f8ba10f007f93be1459 = L.marker(
+            var feature_group_c47edec86e45467f951aa5766cf8b125 = L.featureGroup(
+                {}
+            ).addTo(map_5824ad25401c46948c343d0ebf116993);
+        
+    
+            var circle_marker_94d5533648364d3cb846beae04c22888 = L.circleMarker(
                 [48.7767982, -121.810997],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4c19a6ffa1e14baa89f2daf07bf1d1fe = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_259ae4a8d11a4f8ba10f007f93be1459.setIcon(icon_4c19a6ffa1e14baa89f2daf07bf1d1fe);
-        
-    
-        var popup_85e2b0eb92ed47b48eaffe5d4c92fdaf = L.popup({"maxWidth": "100%"});
+        var popup_2952f6b9686b40a2a5d3100977f3197b = L.popup({"maxWidth": "100%"});
 
         
-            var html_eab212cca3454c2bb8c9585234acf7a9 = $(`<div id="html_eab212cca3454c2bb8c9585234acf7a9" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_85e2b0eb92ed47b48eaffe5d4c92fdaf.setContent(html_eab212cca3454c2bb8c9585234acf7a9);
+            var html_d2429c8b06ba49eca0dc88759462001a = $(`<div id="html_d2429c8b06ba49eca0dc88759462001a" style="width: 100.0%; height: 100.0%;">3285.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_2952f6b9686b40a2a5d3100977f3197b.setContent(html_d2429c8b06ba49eca0dc88759462001a);
         
 
-        marker_259ae4a8d11a4f8ba10f007f93be1459.bindPopup(popup_85e2b0eb92ed47b48eaffe5d4c92fdaf)
+        circle_marker_94d5533648364d3cb846beae04c22888.bindPopup(popup_2952f6b9686b40a2a5d3100977f3197b)
         ;
 
         
     
     
-            var marker_f5fb119c7bca4c9480e5b9eebee8f0e1 = L.marker(
+            var circle_marker_1fffcc01f10446f5a80848b0735c0e7c = L.circleMarker(
                 [48.1118011, -121.1110001],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4b9235843aca49f1b91b07e1541f7ba1 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_f5fb119c7bca4c9480e5b9eebee8f0e1.setIcon(icon_4b9235843aca49f1b91b07e1541f7ba1);
-        
-    
-        var popup_436d9686fc4846e99537d7df556648e2 = L.popup({"maxWidth": "100%"});
+        var popup_cd1f6e7f1d9440149b1853f717aa2460 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c8c4841b42a8400fad067f23bfb0c85e = $(`<div id="html_c8c4841b42a8400fad067f23bfb0c85e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_436d9686fc4846e99537d7df556648e2.setContent(html_c8c4841b42a8400fad067f23bfb0c85e);
+            var html_1468282506c2443191ce24481b7e8127 = $(`<div id="html_1468282506c2443191ce24481b7e8127" style="width: 100.0%; height: 100.0%;">3213.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_cd1f6e7f1d9440149b1853f717aa2460.setContent(html_1468282506c2443191ce24481b7e8127);
         
 
-        marker_f5fb119c7bca4c9480e5b9eebee8f0e1.bindPopup(popup_436d9686fc4846e99537d7df556648e2)
+        circle_marker_1fffcc01f10446f5a80848b0735c0e7c.bindPopup(popup_cd1f6e7f1d9440149b1853f717aa2460)
         ;
 
         
     
     
-            var marker_5b7039bec88d42daa54858749e4e38ed = L.marker(
+            var circle_marker_f97bd1deb7eb4ffc8a39bedd41c29808 = L.circleMarker(
                 [46.8698006, -121.7509995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_759ea65e889f4fed8cbf50707847e8e3 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_5b7039bec88d42daa54858749e4e38ed.setIcon(icon_759ea65e889f4fed8cbf50707847e8e3);
-        
-    
-        var popup_fb4c47e3bc66496abcf64ce0152a33cf = L.popup({"maxWidth": "100%"});
+        var popup_43b74d9bd9d24df8a5fc3a823b88ae7e = L.popup({"maxWidth": "100%"});
 
         
-            var html_a6a0078dae894d989a6ead3a9dc137fc = $(`<div id="html_a6a0078dae894d989a6ead3a9dc137fc" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_fb4c47e3bc66496abcf64ce0152a33cf.setContent(html_a6a0078dae894d989a6ead3a9dc137fc);
+            var html_529a39f0320e406db9ebbd46e6be5e9e = $(`<div id="html_529a39f0320e406db9ebbd46e6be5e9e" style="width: 100.0%; height: 100.0%;">4392.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_43b74d9bd9d24df8a5fc3a823b88ae7e.setContent(html_529a39f0320e406db9ebbd46e6be5e9e);
         
 
-        marker_5b7039bec88d42daa54858749e4e38ed.bindPopup(popup_fb4c47e3bc66496abcf64ce0152a33cf)
+        circle_marker_f97bd1deb7eb4ffc8a39bedd41c29808.bindPopup(popup_43b74d9bd9d24df8a5fc3a823b88ae7e)
         ;
 
         
     
     
-            var marker_3836bdd8d9ea4688b1a4afcc409bc4a2 = L.marker(
+            var circle_marker_771f52eb635f4c71af19e24d7fec4888 = L.circleMarker(
                 [46.1997986, -122.1809998],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_5186626713b14e8b96b429752beab50e = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_3836bdd8d9ea4688b1a4afcc409bc4a2.setIcon(icon_5186626713b14e8b96b429752beab50e);
-        
-    
-        var popup_232f837c1bb345b4ae7c1cbb7a964a2b = L.popup({"maxWidth": "100%"});
+        var popup_0ac6c30f0a9d4fe0aefc706012331aef = L.popup({"maxWidth": "100%"});
 
         
-            var html_9cc73fff20464b47a1f5f3f8a3776510 = $(`<div id="html_9cc73fff20464b47a1f5f3f8a3776510" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_232f837c1bb345b4ae7c1cbb7a964a2b.setContent(html_9cc73fff20464b47a1f5f3f8a3776510);
+            var html_131ef449f2d74f0c8e29e43001fdf352 = $(`<div id="html_131ef449f2d74f0c8e29e43001fdf352" style="width: 100.0%; height: 100.0%;">2549.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_0ac6c30f0a9d4fe0aefc706012331aef.setContent(html_131ef449f2d74f0c8e29e43001fdf352);
         
 
-        marker_3836bdd8d9ea4688b1a4afcc409bc4a2.bindPopup(popup_232f837c1bb345b4ae7c1cbb7a964a2b)
+        circle_marker_771f52eb635f4c71af19e24d7fec4888.bindPopup(popup_0ac6c30f0a9d4fe0aefc706012331aef)
         ;
 
         
     
     
-            var marker_8e979ea180634ca4a371352ab33cfce8 = L.marker(
+            var circle_marker_8f778fd13e4242d09a195359f42014c1 = L.circleMarker(
                 [46.2057991, -121.4909973],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_320141646fb3423694ac6adb4730b1dc = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_8e979ea180634ca4a371352ab33cfce8.setIcon(icon_320141646fb3423694ac6adb4730b1dc);
-        
-    
-        var popup_2721e45d5c7c483faad36537f1de8719 = L.popup({"maxWidth": "100%"});
+        var popup_7f038bbefb1f4b4780965822a7a56c13 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0fa61461752a4d368f8576f52053e0be = $(`<div id="html_0fa61461752a4d368f8576f52053e0be" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_2721e45d5c7c483faad36537f1de8719.setContent(html_0fa61461752a4d368f8576f52053e0be);
+            var html_184ef5203cec4965998b9836b2744ef9 = $(`<div id="html_184ef5203cec4965998b9836b2744ef9" style="width: 100.0%; height: 100.0%;">3742.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_7f038bbefb1f4b4780965822a7a56c13.setContent(html_184ef5203cec4965998b9836b2744ef9);
         
 
-        marker_8e979ea180634ca4a371352ab33cfce8.bindPopup(popup_2721e45d5c7c483faad36537f1de8719)
+        circle_marker_8f778fd13e4242d09a195359f42014c1.bindPopup(popup_7f038bbefb1f4b4780965822a7a56c13)
         ;
 
         
     
     
-            var marker_b58f0faca5924673adc5cace35b09a4f = L.marker(
+            var circle_marker_7caf748f93e14d418197bb0adaa8fcaf = L.circleMarker(
                 [45.8797989, -122.0810013],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_c91f904f55d648be9d91b0fef9ee0fb6 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_b58f0faca5924673adc5cace35b09a4f.setIcon(icon_c91f904f55d648be9d91b0fef9ee0fb6);
-        
-    
-        var popup_938453e9c74740eba6cb1d4619dfc45d = L.popup({"maxWidth": "100%"});
+        var popup_d4d21bbd68744a6997a330957cedc8f9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6cbf974d8e20475284941dee96f63923 = $(`<div id="html_6cbf974d8e20475284941dee96f63923" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_938453e9c74740eba6cb1d4619dfc45d.setContent(html_6cbf974d8e20475284941dee96f63923);
+            var html_3ec55455daba4493a3899187a5cb8e6e = $(`<div id="html_3ec55455daba4493a3899187a5cb8e6e" style="width: 100.0%; height: 100.0%;">1329.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_d4d21bbd68744a6997a330957cedc8f9.setContent(html_3ec55455daba4493a3899187a5cb8e6e);
         
 
-        marker_b58f0faca5924673adc5cace35b09a4f.bindPopup(popup_938453e9c74740eba6cb1d4619dfc45d)
+        circle_marker_7caf748f93e14d418197bb0adaa8fcaf.bindPopup(popup_d4d21bbd68744a6997a330957cedc8f9)
         ;
 
         
     
     
-            var marker_5fbe444218034c219fa043c703ad1078 = L.marker(
+            var circle_marker_b933c4bd877a4037977d4d7f0adce2b5 = L.circleMarker(
                 [45.9297981, -121.8209991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_87e1357ec87e4aa7afd907de8f8c04ad = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_5fbe444218034c219fa043c703ad1078.setIcon(icon_87e1357ec87e4aa7afd907de8f8c04ad);
-        
-    
-        var popup_07ba0e979bd14767b8fd5ca5cb4e061f = L.popup({"maxWidth": "100%"});
+        var popup_7966cd5fb39346cc938daf65b4fff68e = L.popup({"maxWidth": "100%"});
 
         
-            var html_2f107bd9cde548068fd03a529f90d51b = $(`<div id="html_2f107bd9cde548068fd03a529f90d51b" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_07ba0e979bd14767b8fd5ca5cb4e061f.setContent(html_2f107bd9cde548068fd03a529f90d51b);
+            var html_6a2fd5944e74436a9e4777b4f5f87118 = $(`<div id="html_6a2fd5944e74436a9e4777b4f5f87118" style="width: 100.0%; height: 100.0%;">1806.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_7966cd5fb39346cc938daf65b4fff68e.setContent(html_6a2fd5944e74436a9e4777b4f5f87118);
         
 
-        marker_5fbe444218034c219fa043c703ad1078.bindPopup(popup_07ba0e979bd14767b8fd5ca5cb4e061f)
+        circle_marker_b933c4bd877a4037977d4d7f0adce2b5.bindPopup(popup_7966cd5fb39346cc938daf65b4fff68e)
         ;
 
         
     
     
-            var marker_eeb674c9dbaa42ca85ae786192665c49 = L.marker(
+            var circle_marker_0b2ebe8ff4ce48dda22e1a74d088663f = L.circleMarker(
                 [45.3737984, -121.6910019],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_3ec784a1a8f746a7911992abdfc0fcc0 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_eeb674c9dbaa42ca85ae786192665c49.setIcon(icon_3ec784a1a8f746a7911992abdfc0fcc0);
-        
-    
-        var popup_ff0c9d4bc0304fd8a317a2fba133d223 = L.popup({"maxWidth": "100%"});
+        var popup_7b22195b116442e586ef29fa0078f4d7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e2989e567cdc464eb5c11bcbd7a97c08 = $(`<div id="html_e2989e567cdc464eb5c11bcbd7a97c08" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_ff0c9d4bc0304fd8a317a2fba133d223.setContent(html_e2989e567cdc464eb5c11bcbd7a97c08);
+            var html_1158985094174a0bb9deaf4c2abe4f26 = $(`<div id="html_1158985094174a0bb9deaf4c2abe4f26" style="width: 100.0%; height: 100.0%;">3426.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_7b22195b116442e586ef29fa0078f4d7.setContent(html_1158985094174a0bb9deaf4c2abe4f26);
         
 
-        marker_eeb674c9dbaa42ca85ae786192665c49.bindPopup(popup_ff0c9d4bc0304fd8a317a2fba133d223)
+        circle_marker_0b2ebe8ff4ce48dda22e1a74d088663f.bindPopup(popup_7b22195b116442e586ef29fa0078f4d7)
         ;
 
         
     
     
-            var marker_aa0ff98ea6a649a9ab6cd7f1bef84e6a = L.marker(
+            var circle_marker_2d98b8350c7f42e6a908352a53a47bf3 = L.circleMarker(
                 [44.6917992, -121.8010025],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_1bad851b5d0e4f4fa8eb94adc7ee863d = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_aa0ff98ea6a649a9ab6cd7f1bef84e6a.setIcon(icon_1bad851b5d0e4f4fa8eb94adc7ee863d);
-        
-    
-        var popup_93e3e5fd6f26412b9f53d0b6d85eb9c9 = L.popup({"maxWidth": "100%"});
+        var popup_3ba95e6849014e01bbb78e2c2fe7f298 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b506a5344daa42309e133f7cbc2a01e2 = $(`<div id="html_b506a5344daa42309e133f7cbc2a01e2" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_93e3e5fd6f26412b9f53d0b6d85eb9c9.setContent(html_b506a5344daa42309e133f7cbc2a01e2);
+            var html_7c98b4bb9f114b038bc4e40e939077d4 = $(`<div id="html_7c98b4bb9f114b038bc4e40e939077d4" style="width: 100.0%; height: 100.0%;">3199.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_3ba95e6849014e01bbb78e2c2fe7f298.setContent(html_7c98b4bb9f114b038bc4e40e939077d4);
         
 
-        marker_aa0ff98ea6a649a9ab6cd7f1bef84e6a.bindPopup(popup_93e3e5fd6f26412b9f53d0b6d85eb9c9)
+        circle_marker_2d98b8350c7f42e6a908352a53a47bf3.bindPopup(popup_3ba95e6849014e01bbb78e2c2fe7f298)
         ;
 
         
     
     
-            var marker_f80a672d433e4ee195e6de359ccc7c0b = L.marker(
+            var circle_marker_ea62b9c9ccf645bebb11fc3ba8d7cd19 = L.circleMarker(
                 [44.4197998, -121.7710037],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_2d121bb88e3f4d88bb08cf1a14859061 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_f80a672d433e4ee195e6de359ccc7c0b.setIcon(icon_2d121bb88e3f4d88bb08cf1a14859061);
-        
-    
-        var popup_270b8dc90e854eceb3b630e9d5697504 = L.popup({"maxWidth": "100%"});
+        var popup_1003721cbb4e4b1e82a56faeb4c9a670 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e470ee05954b4e43a8fa0c4777ec4a5e = $(`<div id="html_e470ee05954b4e43a8fa0c4777ec4a5e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_270b8dc90e854eceb3b630e9d5697504.setContent(html_e470ee05954b4e43a8fa0c4777ec4a5e);
+            var html_aa4e61e892394ca78eb225b658ac21d1 = $(`<div id="html_aa4e61e892394ca78eb225b658ac21d1" style="width: 100.0%; height: 100.0%;">1230.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_1003721cbb4e4b1e82a56faeb4c9a670.setContent(html_aa4e61e892394ca78eb225b658ac21d1);
         
 
-        marker_f80a672d433e4ee195e6de359ccc7c0b.bindPopup(popup_270b8dc90e854eceb3b630e9d5697504)
+        circle_marker_ea62b9c9ccf645bebb11fc3ba8d7cd19.bindPopup(popup_1003721cbb4e4b1e82a56faeb4c9a670)
         ;
 
         
     
     
-            var marker_00057867262440c881fd203a8fae1584 = L.marker(
+            var circle_marker_aeeffe44be854dad83976828a5301309 = L.circleMarker(
                 [44.3797989, -121.9309998],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4809d46c61a14eb2ad21b12cd047a083 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_00057867262440c881fd203a8fae1584.setIcon(icon_4809d46c61a14eb2ad21b12cd047a083);
-        
-    
-        var popup_9c26d95a534e4256a008aaebee94941e = L.popup({"maxWidth": "100%"});
+        var popup_f2db125750c746cbb7b820ac6246a428 = L.popup({"maxWidth": "100%"});
 
         
-            var html_863aeafe16a64322bad8a379185e4004 = $(`<div id="html_863aeafe16a64322bad8a379185e4004" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_9c26d95a534e4256a008aaebee94941e.setContent(html_863aeafe16a64322bad8a379185e4004);
+            var html_980f0c2a3fb24d429fcf4d8760b761c6 = $(`<div id="html_980f0c2a3fb24d429fcf4d8760b761c6" style="width: 100.0%; height: 100.0%;">1664.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f2db125750c746cbb7b820ac6246a428.setContent(html_980f0c2a3fb24d429fcf4d8760b761c6);
         
 
-        marker_00057867262440c881fd203a8fae1584.bindPopup(popup_9c26d95a534e4256a008aaebee94941e)
+        circle_marker_aeeffe44be854dad83976828a5301309.bindPopup(popup_f2db125750c746cbb7b820ac6246a428)
         ;
 
         
     
     
-            var marker_ac17bfb2798242efb4268c7121911e50 = L.marker(
+            var circle_marker_7a282d8b6ce3406789fe4f4e7f3bec1b = L.circleMarker(
                 [44.3317986, -121.8310013],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_dc918c00af9449fc8cafd5fa6535bcd5 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_ac17bfb2798242efb4268c7121911e50.setIcon(icon_dc918c00af9449fc8cafd5fa6535bcd5);
-        
-    
-        var popup_3b799a28d8e048fdbc574c6adafeb09a = L.popup({"maxWidth": "100%"});
+        var popup_84f466ad3645472fb9fa11d8e42920c1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_bd299b1703bd46d4937c6e6bf904c975 = $(`<div id="html_bd299b1703bd46d4937c6e6bf904c975" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_3b799a28d8e048fdbc574c6adafeb09a.setContent(html_bd299b1703bd46d4937c6e6bf904c975);
+            var html_5b24bbd60f0745eda44535e6b768dc3d = $(`<div id="html_5b24bbd60f0745eda44535e6b768dc3d" style="width: 100.0%; height: 100.0%;">2376.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_84f466ad3645472fb9fa11d8e42920c1.setContent(html_5b24bbd60f0745eda44535e6b768dc3d);
         
 
-        marker_ac17bfb2798242efb4268c7121911e50.bindPopup(popup_3b799a28d8e048fdbc574c6adafeb09a)
+        circle_marker_7a282d8b6ce3406789fe4f4e7f3bec1b.bindPopup(popup_84f466ad3645472fb9fa11d8e42920c1)
         ;
 
         
     
     
-            var marker_81b8066832c84ceca9850ad7e3d32340 = L.marker(
+            var circle_marker_2bdb3ad45ab145a9a56f451eda38f63f = L.circleMarker(
                 [44.2848015, -121.8410034],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_144c5ffd4738413a84f1ea2d7c523f52 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_81b8066832c84ceca9850ad7e3d32340.setIcon(icon_144c5ffd4738413a84f1ea2d7c523f52);
-        
-    
-        var popup_04781331035248419af399dd60efbfea = L.popup({"maxWidth": "100%"});
+        var popup_7985badeb43744e8a16c3a5d2cf64b82 = L.popup({"maxWidth": "100%"});
 
         
-            var html_27b04650bfa7457cbb07f559c4102564 = $(`<div id="html_27b04650bfa7457cbb07f559c4102564" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_04781331035248419af399dd60efbfea.setContent(html_27b04650bfa7457cbb07f559c4102564);
+            var html_50b637182d174877b94dd1a41c3b09d9 = $(`<div id="html_50b637182d174877b94dd1a41c3b09d9" style="width: 100.0%; height: 100.0%;">2095.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_7985badeb43744e8a16c3a5d2cf64b82.setContent(html_50b637182d174877b94dd1a41c3b09d9);
         
 
-        marker_81b8066832c84ceca9850ad7e3d32340.bindPopup(popup_04781331035248419af399dd60efbfea)
+        circle_marker_2bdb3ad45ab145a9a56f451eda38f63f.bindPopup(popup_7985badeb43744e8a16c3a5d2cf64b82)
         ;
 
         
     
     
-            var marker_3139814aa0804adf8073d74ff6324ab5 = L.marker(
+            var circle_marker_9e366a481e8d4fb2972119ecc126af84 = L.circleMarker(
                 [44.1697998, -121.7710037],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_b2e0bffd9dbb4aca953a83657023f38a = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_3139814aa0804adf8073d74ff6324ab5.setIcon(icon_b2e0bffd9dbb4aca953a83657023f38a);
-        
-    
-        var popup_d1fa42ffc13c4920bd228adab1c0f5e2 = L.popup({"maxWidth": "100%"});
+        var popup_f3d3c55b9d5741628fddbed289d71f73 = L.popup({"maxWidth": "100%"});
 
         
-            var html_30da12a18e124ea5b4aeeea90738049a = $(`<div id="html_30da12a18e124ea5b4aeeea90738049a" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_d1fa42ffc13c4920bd228adab1c0f5e2.setContent(html_30da12a18e124ea5b4aeeea90738049a);
+            var html_90d1d0b82c68464dbbaffc268cc895ed = $(`<div id="html_90d1d0b82c68464dbbaffc268cc895ed" style="width: 100.0%; height: 100.0%;">3074.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f3d3c55b9d5741628fddbed289d71f73.setContent(html_90d1d0b82c68464dbbaffc268cc895ed);
         
 
-        marker_3139814aa0804adf8073d74ff6324ab5.bindPopup(popup_d1fa42ffc13c4920bd228adab1c0f5e2)
+        circle_marker_9e366a481e8d4fb2972119ecc126af84.bindPopup(popup_f3d3c55b9d5741628fddbed289d71f73)
         ;
 
         
     
     
-            var marker_6475cd7e203f437b91f4f4be2a903b32 = L.marker(
+            var circle_marker_ab352d02e23642e2b84273ea039ac0be = L.circleMarker(
                 [44.0998001, -121.7710037],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_5e04a124e1f9476583c34b5fd7fcf22b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_6475cd7e203f437b91f4f4be2a903b32.setIcon(icon_5e04a124e1f9476583c34b5fd7fcf22b);
-        
-    
-        var popup_3d360540d0e74bbc9250604f12f3258d = L.popup({"maxWidth": "100%"});
+        var popup_8f7ae371c7e74052a3d6fa43e9eefd47 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9d16a79a11004846b560c04dd091fecc = $(`<div id="html_9d16a79a11004846b560c04dd091fecc" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_3d360540d0e74bbc9250604f12f3258d.setContent(html_9d16a79a11004846b560c04dd091fecc);
+            var html_80c9579f8c884ea0a6a9bd93cdf3879e = $(`<div id="html_80c9579f8c884ea0a6a9bd93cdf3879e" style="width: 100.0%; height: 100.0%;">3157.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_8f7ae371c7e74052a3d6fa43e9eefd47.setContent(html_80c9579f8c884ea0a6a9bd93cdf3879e);
         
 
-        marker_6475cd7e203f437b91f4f4be2a903b32.bindPopup(popup_3d360540d0e74bbc9250604f12f3258d)
+        circle_marker_ab352d02e23642e2b84273ea039ac0be.bindPopup(popup_8f7ae371c7e74052a3d6fa43e9eefd47)
         ;
 
         
     
     
-            var marker_e2b494a9e0944c06af163bd26e888885 = L.marker(
+            var circle_marker_26b13af6939b49a188c3c7657f83cf75 = L.circleMarker(
                 [43.9788017, -121.6809998],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_f13e321135a64d7ca0fd0911a31985df = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_e2b494a9e0944c06af163bd26e888885.setIcon(icon_f13e321135a64d7ca0fd0911a31985df);
-        
-    
-        var popup_1b22c172c42349a8b466985c8e68241b = L.popup({"maxWidth": "100%"});
+        var popup_0829dcda26814770978eb01f720c6185 = L.popup({"maxWidth": "100%"});
 
         
-            var html_96aff051db6145cc981a31e022aa2681 = $(`<div id="html_96aff051db6145cc981a31e022aa2681" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_1b22c172c42349a8b466985c8e68241b.setContent(html_96aff051db6145cc981a31e022aa2681);
+            var html_5558f27ad08445568215991e98b8c9b2 = $(`<div id="html_5558f27ad08445568215991e98b8c9b2" style="width: 100.0%; height: 100.0%;">2763.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_0829dcda26814770978eb01f720c6185.setContent(html_5558f27ad08445568215991e98b8c9b2);
         
 
-        marker_e2b494a9e0944c06af163bd26e888885.bindPopup(popup_1b22c172c42349a8b466985c8e68241b)
+        circle_marker_26b13af6939b49a188c3c7657f83cf75.bindPopup(popup_0829dcda26814770978eb01f720c6185)
         ;
 
         
     
     
-            var marker_ddfc5edb50bf4fcdb798ab5007374f6f = L.marker(
+            var circle_marker_c7d8804ef2a3453dbe5e9f0ed9456654 = L.circleMarker(
                 [43.7218018, -121.2210007],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_30ef91649fc64d19a2a8da935e646881 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_ddfc5edb50bf4fcdb798ab5007374f6f.setIcon(icon_30ef91649fc64d19a2a8da935e646881);
-        
-    
-        var popup_b52b673c16644b31981091825b510ea4 = L.popup({"maxWidth": "100%"});
+        var popup_63913d9ee7b047b686a7e7909c7b968b = L.popup({"maxWidth": "100%"});
 
         
-            var html_e7d482bde79242f29cf378901fd884cb = $(`<div id="html_e7d482bde79242f29cf378901fd884cb" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_b52b673c16644b31981091825b510ea4.setContent(html_e7d482bde79242f29cf378901fd884cb);
+            var html_0816dfd3d394461fa2edbe41d21268e4 = $(`<div id="html_0816dfd3d394461fa2edbe41d21268e4" style="width: 100.0%; height: 100.0%;">2434.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_63913d9ee7b047b686a7e7909c7b968b.setContent(html_0816dfd3d394461fa2edbe41d21268e4);
         
 
-        marker_ddfc5edb50bf4fcdb798ab5007374f6f.bindPopup(popup_b52b673c16644b31981091825b510ea4)
+        circle_marker_c7d8804ef2a3453dbe5e9f0ed9456654.bindPopup(popup_63913d9ee7b047b686a7e7909c7b968b)
         ;
 
         
     
     
-            var marker_f22a8f9e175847e283492f8a99cc2582 = L.marker(
+            var circle_marker_04bc8cd90398432380bd3f0cda0aab4e = L.circleMarker(
                 [43.5698013, -121.8209991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_be982994800b4599926ad7288330e824 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_f22a8f9e175847e283492f8a99cc2582.setIcon(icon_be982994800b4599926ad7288330e824);
-        
-    
-        var popup_c4d7b6dca3b34bac95424c933b8c76ec = L.popup({"maxWidth": "100%"});
+        var popup_11e4245864b24c45831340451345c3c5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ba06d3f9812c42c8b4415883972a3795 = $(`<div id="html_ba06d3f9812c42c8b4415883972a3795" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_c4d7b6dca3b34bac95424c933b8c76ec.setContent(html_ba06d3f9812c42c8b4415883972a3795);
+            var html_0ccda57cd7bf45d590c433c97d2dbb7e = $(`<div id="html_0ccda57cd7bf45d590c433c97d2dbb7e" style="width: 100.0%; height: 100.0%;">2163.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_11e4245864b24c45831340451345c3c5.setContent(html_0ccda57cd7bf45d590c433c97d2dbb7e);
         
 
-        marker_f22a8f9e175847e283492f8a99cc2582.bindPopup(popup_c4d7b6dca3b34bac95424c933b8c76ec)
+        circle_marker_04bc8cd90398432380bd3f0cda0aab4e.bindPopup(popup_11e4245864b24c45831340451345c3c5)
         ;
 
         
     
     
-            var marker_2cfd9da944b049649514de731bf653b5 = L.marker(
+            var circle_marker_9243514e066b41e6b364d0979d009928 = L.circleMarker(
                 [43.5119019, -120.8610001],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_3aaed0093a4549539fbed11bc1d3c4a8 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_2cfd9da944b049649514de731bf653b5.setIcon(icon_3aaed0093a4549539fbed11bc1d3c4a8);
-        
-    
-        var popup_fca30f7c81a94509b134afd8e77787e7 = L.popup({"maxWidth": "100%"});
+        var popup_b048ab8d58114db082c0feafd1157431 = L.popup({"maxWidth": "100%"});
 
         
-            var html_37b1fcdd03664a64a4c8338f83ead3a6 = $(`<div id="html_37b1fcdd03664a64a4c8338f83ead3a6" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_fca30f7c81a94509b134afd8e77787e7.setContent(html_37b1fcdd03664a64a4c8338f83ead3a6);
+            var html_451e78d28b0846fda6230922db8cb847 = $(`<div id="html_451e78d28b0846fda6230922db8cb847" style="width: 100.0%; height: 100.0%;">1698.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_b048ab8d58114db082c0feafd1157431.setContent(html_451e78d28b0846fda6230922db8cb847);
         
 
-        marker_2cfd9da944b049649514de731bf653b5.bindPopup(popup_fca30f7c81a94509b134afd8e77787e7)
+        circle_marker_9243514e066b41e6b364d0979d009928.bindPopup(popup_b048ab8d58114db082c0feafd1157431)
         ;
 
         
     
     
-            var marker_47e4cd20152a4dc3a4ad3f9a1ea52f53 = L.marker(
+            var circle_marker_457dcf36d0954f0badfed6ef64e4c0a0 = L.circleMarker(
                 [43.240799, -122.1009979],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_3a107c912dbe4e028adeedb0e4426b80 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_47e4cd20152a4dc3a4ad3f9a1ea52f53.setIcon(icon_3a107c912dbe4e028adeedb0e4426b80);
-        
-    
-        var popup_d1f3bc63e4074763b4d0717171513c4c = L.popup({"maxWidth": "100%"});
+        var popup_c4756b1106634292b7b1b6f87f83bba8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6c7b5afa95874e878d6dc80bff624fde = $(`<div id="html_6c7b5afa95874e878d6dc80bff624fde" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_d1f3bc63e4074763b4d0717171513c4c.setContent(html_6c7b5afa95874e878d6dc80bff624fde);
+            var html_1f2d84de3f6549d8bea002fba7923e39 = $(`<div id="html_1f2d84de3f6549d8bea002fba7923e39" style="width: 100.0%; height: 100.0%;">1956.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_c4756b1106634292b7b1b6f87f83bba8.setContent(html_1f2d84de3f6549d8bea002fba7923e39);
         
 
-        marker_47e4cd20152a4dc3a4ad3f9a1ea52f53.bindPopup(popup_d1f3bc63e4074763b4d0717171513c4c)
+        circle_marker_457dcf36d0954f0badfed6ef64e4c0a0.bindPopup(popup_c4756b1106634292b7b1b6f87f83bba8)
         ;
 
         
     
     
-            var marker_63837bb152994e80928b860f36163a6c = L.marker(
+            var circle_marker_f581c70ee79c412d93e4bae0c33f14cd = L.circleMarker(
                 [43.4719009, -120.7509995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_ce423714dfda4d8f87c395819cae3a33 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_63837bb152994e80928b860f36163a6c.setIcon(icon_ce423714dfda4d8f87c395819cae3a33);
-        
-    
-        var popup_687dde45a81d4dd784748dada64cc5ff = L.popup({"maxWidth": "100%"});
+        var popup_1a432d784d6049f98aa0c5603dc8ee2a = L.popup({"maxWidth": "100%"});
 
         
-            var html_1a444494d7614c40ab0043658c3c3e2d = $(`<div id="html_1a444494d7614c40ab0043658c3c3e2d" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_687dde45a81d4dd784748dada64cc5ff.setContent(html_1a444494d7614c40ab0043658c3c3e2d);
+            var html_f247dda5f2784e3985ce86ec5e48d319 = $(`<div id="html_f247dda5f2784e3985ce86ec5e48d319" style="width: 100.0%; height: 100.0%;">1711.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_1a432d784d6049f98aa0c5603dc8ee2a.setContent(html_f247dda5f2784e3985ce86ec5e48d319);
         
 
-        marker_63837bb152994e80928b860f36163a6c.bindPopup(popup_687dde45a81d4dd784748dada64cc5ff)
+        circle_marker_f581c70ee79c412d93e4bae0c33f14cd.bindPopup(popup_1a432d784d6049f98aa0c5603dc8ee2a)
         ;
 
         
     
     
-            var marker_24a3ae57e70e40f19e2aa110f6c3ac74 = L.marker(
+            var circle_marker_84274e954fd24b5e98c4d5467a92e131 = L.circleMarker(
                 [43.3609009, -120.6610031],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_1abbe8e782f345749493ad63b9b260f8 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_24a3ae57e70e40f19e2aa110f6c3ac74.setIcon(icon_1abbe8e782f345749493ad63b9b260f8);
-        
-    
-        var popup_f01262ea923b49c2a7cab256386c2067 = L.popup({"maxWidth": "100%"});
+        var popup_c74935f6f21b4b6e997621030f7cd6c9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e2f73f8d6d574fa3ac4cb2346d378bbd = $(`<div id="html_e2f73f8d6d574fa3ac4cb2346d378bbd" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_f01262ea923b49c2a7cab256386c2067.setContent(html_e2f73f8d6d574fa3ac4cb2346d378bbd);
+            var html_3be8c2ca32e34af99148290b4accadd8 = $(`<div id="html_3be8c2ca32e34af99148290b4accadd8" style="width: 100.0%; height: 100.0%;">1501.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_c74935f6f21b4b6e997621030f7cd6c9.setContent(html_3be8c2ca32e34af99148290b4accadd8);
         
 
-        marker_24a3ae57e70e40f19e2aa110f6c3ac74.bindPopup(popup_f01262ea923b49c2a7cab256386c2067)
+        circle_marker_84274e954fd24b5e98c4d5467a92e131.bindPopup(popup_c74935f6f21b4b6e997621030f7cd6c9)
         ;
 
         
     
     
-            var marker_7a3db344bb404d84aba8ae373b12657c = L.marker(
+            var circle_marker_1833db65da4246069e7b76d0339278ac = L.circleMarker(
                 [42.9299011, -122.1210022],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_cec9304c590344038d542c01064680c7 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_7a3db344bb404d84aba8ae373b12657c.setIcon(icon_cec9304c590344038d542c01064680c7);
-        
-    
-        var popup_041de42b5142418e922b36a77cfa7757 = L.popup({"maxWidth": "100%"});
+        var popup_4201c809ee1b444e959f2a52992c0276 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9e52063fa8b14d6aae2b1c2a2560437f = $(`<div id="html_9e52063fa8b14d6aae2b1c2a2560437f" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_041de42b5142418e922b36a77cfa7757.setContent(html_9e52063fa8b14d6aae2b1c2a2560437f);
+            var html_fb21dc74aa924a628982d00ed3c397a1 = $(`<div id="html_fb21dc74aa924a628982d00ed3c397a1" style="width: 100.0%; height: 100.0%;">2487.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_4201c809ee1b444e959f2a52992c0276.setContent(html_fb21dc74aa924a628982d00ed3c397a1);
         
 
-        marker_7a3db344bb404d84aba8ae373b12657c.bindPopup(popup_041de42b5142418e922b36a77cfa7757)
+        circle_marker_1833db65da4246069e7b76d0339278ac.bindPopup(popup_4201c809ee1b444e959f2a52992c0276)
         ;
 
         
     
     
-            var marker_0110a85c4d96421ca287b42970bc10dd = L.marker(
+            var circle_marker_925f017976724f7481d1a4ae5b8e7c3c = L.circleMarker(
                 [44.4299011, -110.6709976],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_eb4c54dd36f748f9bd6d7cf094df3b06 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_0110a85c4d96421ca287b42970bc10dd.setIcon(icon_eb4c54dd36f748f9bd6d7cf094df3b06);
-        
-    
-        var popup_d28f9ae63c604e93b76ffb301ab81a68 = L.popup({"maxWidth": "100%"});
+        var popup_e269ac0192d94cef80ccb4035641cb1b = L.popup({"maxWidth": "100%"});
 
         
-            var html_1ac9a3ed8adc4e7aa26e22e2681fb156 = $(`<div id="html_1ac9a3ed8adc4e7aa26e22e2681fb156" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_d28f9ae63c604e93b76ffb301ab81a68.setContent(html_1ac9a3ed8adc4e7aa26e22e2681fb156);
+            var html_379ed37503614a61ba1c7b299d3f72a0 = $(`<div id="html_379ed37503614a61ba1c7b299d3f72a0" style="width: 100.0%; height: 100.0%;">2805.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_e269ac0192d94cef80ccb4035641cb1b.setContent(html_379ed37503614a61ba1c7b299d3f72a0);
         
 
-        marker_0110a85c4d96421ca287b42970bc10dd.bindPopup(popup_d28f9ae63c604e93b76ffb301ab81a68)
+        circle_marker_925f017976724f7481d1a4ae5b8e7c3c.bindPopup(popup_e269ac0192d94cef80ccb4035641cb1b)
         ;
 
         
     
     
-            var marker_1e569e8e9e5647018cd806c95b22d3ec = L.marker(
+            var circle_marker_2e1312a5c4b64e43ba6e8d70739ec076 = L.circleMarker(
                 [43.0998993, -118.7509995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_d9f6c1ff6dfe4249a14d9823d16e5b71 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_1e569e8e9e5647018cd806c95b22d3ec.setIcon(icon_d9f6c1ff6dfe4249a14d9823d16e5b71);
-        
-    
-        var popup_cb1183f9cf134821a23dfb91b2bffc48 = L.popup({"maxWidth": "100%"});
+        var popup_fa13b2a3b45044878d419e2b413d471e = L.popup({"maxWidth": "100%"});
 
         
-            var html_297fea2e2e6146c4b019fc157958f0f9 = $(`<div id="html_297fea2e2e6146c4b019fc157958f0f9" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_cb1183f9cf134821a23dfb91b2bffc48.setContent(html_297fea2e2e6146c4b019fc157958f0f9);
+            var html_cedf6e23518a490a8e227f66cf0b95ff = $(`<div id="html_cedf6e23518a490a8e227f66cf0b95ff" style="width: 100.0%; height: 100.0%;">1435.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_fa13b2a3b45044878d419e2b413d471e.setContent(html_cedf6e23518a490a8e227f66cf0b95ff);
         
 
-        marker_1e569e8e9e5647018cd806c95b22d3ec.bindPopup(popup_cb1183f9cf134821a23dfb91b2bffc48)
+        circle_marker_2e1312a5c4b64e43ba6e8d70739ec076.bindPopup(popup_fa13b2a3b45044878d419e2b413d471e)
         ;
 
         
     
     
-            var marker_ece6118f0b6f499cb1794148e39d4623 = L.marker(
+            var circle_marker_f09eca208bca4e488a96bcb8828717ef = L.circleMarker(
                 [43.1498985, -117.4710007],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_5b9c6111e8784b2c9a4d54a2885b744b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_ece6118f0b6f499cb1794148e39d4623.setIcon(icon_5b9c6111e8784b2c9a4d54a2885b744b);
-        
-    
-        var popup_3a7d6dc55729484ba0f5e259158759fb = L.popup({"maxWidth": "100%"});
+        var popup_4cbfb7ab511a41faa692ffff8b9d12fb = L.popup({"maxWidth": "100%"});
 
         
-            var html_1c1548aa843c49168b6e7e4dec1c1cfc = $(`<div id="html_1c1548aa843c49168b6e7e4dec1c1cfc" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_3a7d6dc55729484ba0f5e259158759fb.setContent(html_1c1548aa843c49168b6e7e4dec1c1cfc);
+            var html_6cb7938718cf4d3fb53851fa0f91dfe6 = $(`<div id="html_6cb7938718cf4d3fb53851fa0f91dfe6" style="width: 100.0%; height: 100.0%;">1473.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_4cbfb7ab511a41faa692ffff8b9d12fb.setContent(html_6cb7938718cf4d3fb53851fa0f91dfe6);
         
 
-        marker_ece6118f0b6f499cb1794148e39d4623.bindPopup(popup_3a7d6dc55729484ba0f5e259158759fb)
+        circle_marker_f09eca208bca4e488a96bcb8828717ef.bindPopup(popup_4cbfb7ab511a41faa692ffff8b9d12fb)
         ;
 
         
     
     
-            var marker_8ccbeb58188f49c6accf7096cae60fca = L.marker(
+            var circle_marker_e28da1c20ae34f789099075f10d30c0b = L.circleMarker(
                 [42.9999008, -117.8010025],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4eb43cfc51864eb59dc24033224b22a8 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_8ccbeb58188f49c6accf7096cae60fca.setIcon(icon_4eb43cfc51864eb59dc24033224b22a8);
-        
-    
-        var popup_906723d0781a41908a98b214a0c06aee = L.popup({"maxWidth": "100%"});
+        var popup_abc9a1313ca549bc882b427d9efc127c = L.popup({"maxWidth": "100%"});
 
         
-            var html_2addb8e74e884cc286d21f98637b5e8a = $(`<div id="html_2addb8e74e884cc286d21f98637b5e8a" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_906723d0781a41908a98b214a0c06aee.setContent(html_2addb8e74e884cc286d21f98637b5e8a);
+            var html_0d9488126469437492052223b99ad606 = $(`<div id="html_0d9488126469437492052223b99ad606" style="width: 100.0%; height: 100.0%;">1700.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_abc9a1313ca549bc882b427d9efc127c.setContent(html_0d9488126469437492052223b99ad606);
         
 
-        marker_8ccbeb58188f49c6accf7096cae60fca.bindPopup(popup_906723d0781a41908a98b214a0c06aee)
+        circle_marker_e28da1c20ae34f789099075f10d30c0b.bindPopup(popup_abc9a1313ca549bc882b427d9efc127c)
         ;
 
         
     
     
-            var marker_0796eabba4af489493806a1cfec3a368 = L.marker(
+            var circle_marker_3498a281106149948a33406004059146 = L.circleMarker(
                 [43.419899, -113.5009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_9d19ae53d40a40e58321802d1e941c3b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_0796eabba4af489493806a1cfec3a368.setIcon(icon_9d19ae53d40a40e58321802d1e941c3b);
-        
-    
-        var popup_5c2466d1129a493ca1cfc3f525b93088 = L.popup({"maxWidth": "100%"});
+        var popup_812697de6aea461f82ee859465c0bcb2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3535e323ce074a9088b99d98af104536 = $(`<div id="html_3535e323ce074a9088b99d98af104536" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_5c2466d1129a493ca1cfc3f525b93088.setContent(html_3535e323ce074a9088b99d98af104536);
+            var html_4cf83c678d0f4e758006bbbe0a2d1798 = $(`<div id="html_4cf83c678d0f4e758006bbbe0a2d1798" style="width: 100.0%; height: 100.0%;">2005.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_812697de6aea461f82ee859465c0bcb2.setContent(html_4cf83c678d0f4e758006bbbe0a2d1798);
         
 
-        marker_0796eabba4af489493806a1cfec3a368.bindPopup(popup_5c2466d1129a493ca1cfc3f525b93088)
+        circle_marker_3498a281106149948a33406004059146.bindPopup(popup_812697de6aea461f82ee859465c0bcb2)
         ;
 
         
     
     
-            var marker_303d7f0119e34169a55c601acbc1017a = L.marker(
+            var circle_marker_afc2ad7d89d146f699b193234c26e9e7 = L.circleMarker(
                 [43.4999008, -112.4509964],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_08fc693e00d340029374135850578f64 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_303d7f0119e34169a55c601acbc1017a.setIcon(icon_08fc693e00d340029374135850578f64);
-        
-    
-        var popup_df188b60dff84925b1d416460dd7c6ba = L.popup({"maxWidth": "100%"});
+        var popup_78b7039259e948afbb6377267983fee4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_eace7747700245538e2e32eee92208f0 = $(`<div id="html_eace7747700245538e2e32eee92208f0" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_df188b60dff84925b1d416460dd7c6ba.setContent(html_eace7747700245538e2e32eee92208f0);
+            var html_05064551b5434b99abf27a4b3598f56a = $(`<div id="html_05064551b5434b99abf27a4b3598f56a" style="width: 100.0%; height: 100.0%;">1631.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_78b7039259e948afbb6377267983fee4.setContent(html_05064551b5434b99abf27a4b3598f56a);
         
 
-        marker_303d7f0119e34169a55c601acbc1017a.bindPopup(popup_df188b60dff84925b1d416460dd7c6ba)
+        circle_marker_afc2ad7d89d146f699b193234c26e9e7.bindPopup(popup_78b7039259e948afbb6377267983fee4)
         ;
 
         
     
     
-            var marker_1670efa2286d4ad6a5e12f96ab6a6123 = L.marker(
+            var circle_marker_ec08e23da1b34a59ad03a93627276ca0 = L.circleMarker(
                 [43.1799011, -114.3509979],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_0a51e99d26ca4bad9ae52e6e17a013b8 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_1670efa2286d4ad6a5e12f96ab6a6123.setIcon(icon_0a51e99d26ca4bad9ae52e6e17a013b8);
-        
-    
-        var popup_02dc5ad2ec7e43cdb88fbdef7dc52382 = L.popup({"maxWidth": "100%"});
+        var popup_580a241cb0874df2ad7cc9ed29a4f0ad = L.popup({"maxWidth": "100%"});
 
         
-            var html_68807856589146a3a7d08c80c017f332 = $(`<div id="html_68807856589146a3a7d08c80c017f332" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_02dc5ad2ec7e43cdb88fbdef7dc52382.setContent(html_68807856589146a3a7d08c80c017f332);
+            var html_f54f1d21f1ad4fdebd088e335b63a664 = $(`<div id="html_f54f1d21f1ad4fdebd088e335b63a664" style="width: 100.0%; height: 100.0%;">1478.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_580a241cb0874df2ad7cc9ed29a4f0ad.setContent(html_f54f1d21f1ad4fdebd088e335b63a664);
         
 
-        marker_1670efa2286d4ad6a5e12f96ab6a6123.bindPopup(popup_02dc5ad2ec7e43cdb88fbdef7dc52382)
+        circle_marker_ec08e23da1b34a59ad03a93627276ca0.bindPopup(popup_580a241cb0874df2ad7cc9ed29a4f0ad)
         ;
 
         
     
     
-            var marker_ab619e6bea5445f086896c2210bbc3bf = L.marker(
+            var circle_marker_7b01ea5354e348208f8e735131f2daa9 = L.circleMarker(
                 [42.6058998, -117.5810013],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4c3a095975d64510b1b815d9f435e2be = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_ab619e6bea5445f086896c2210bbc3bf.setIcon(icon_4c3a095975d64510b1b815d9f435e2be);
-        
-    
-        var popup_37ddee7119284260a7b56268ea5ca38e = L.popup({"maxWidth": "100%"});
+        var popup_3bb2ff22c0604cd5aa85d31499c379e1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9d3317153bce4f16943eaf0bac2274cf = $(`<div id="html_9d3317153bce4f16943eaf0bac2274cf" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_37ddee7119284260a7b56268ea5ca38e.setContent(html_9d3317153bce4f16943eaf0bac2274cf);
+            var html_3121a0ef698b4290b040df3a9e33ba28 = $(`<div id="html_3121a0ef698b4290b040df3a9e33ba28" style="width: 100.0%; height: 100.0%;">1418.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_3bb2ff22c0604cd5aa85d31499c379e1.setContent(html_3121a0ef698b4290b040df3a9e33ba28);
         
 
-        marker_ab619e6bea5445f086896c2210bbc3bf.bindPopup(popup_37ddee7119284260a7b56268ea5ca38e)
+        circle_marker_7b01ea5354e348208f8e735131f2daa9.bindPopup(popup_3bb2ff22c0604cd5aa85d31499c379e1)
         ;
 
         
     
     
-            var marker_8f894deb842d4312836c81fd8ebca3c2 = L.marker(
+            var circle_marker_4aae23de40a84f2e99197eb54d7c2332 = L.circleMarker(
                 [41.5798988, -121.5709991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4a65ca86da7a44d093461dae51bb6c31 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_8f894deb842d4312836c81fd8ebca3c2.setIcon(icon_4a65ca86da7a44d093461dae51bb6c31);
-        
-    
-        var popup_a5c4c2e70f9f4d4b8c7fa7a51f7c3359 = L.popup({"maxWidth": "100%"});
+        var popup_718626c0f9d34b40a47e785f394ec8ff = L.popup({"maxWidth": "100%"});
 
         
-            var html_885d7efe14bf47a0b2b3dfc8e5a1f6ea = $(`<div id="html_885d7efe14bf47a0b2b3dfc8e5a1f6ea" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_a5c4c2e70f9f4d4b8c7fa7a51f7c3359.setContent(html_885d7efe14bf47a0b2b3dfc8e5a1f6ea);
+            var html_42620ae093a04fe4937aee5f15428a6c = $(`<div id="html_42620ae093a04fe4937aee5f15428a6c" style="width: 100.0%; height: 100.0%;">2412.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_718626c0f9d34b40a47e785f394ec8ff.setContent(html_42620ae093a04fe4937aee5f15428a6c);
         
 
-        marker_8f894deb842d4312836c81fd8ebca3c2.bindPopup(popup_a5c4c2e70f9f4d4b8c7fa7a51f7c3359)
+        circle_marker_4aae23de40a84f2e99197eb54d7c2332.bindPopup(popup_718626c0f9d34b40a47e785f394ec8ff)
         ;
 
         
     
     
-            var marker_14cecffa0fa24ad4ac1fde77b4295476 = L.marker(
+            var circle_marker_4ea536da48b64d1ba883ab9f01aa969d = L.circleMarker(
                 [42.8799019, -113.2210007],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_9a6933d264aa4c138a7351fae1bc1009 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_14cecffa0fa24ad4ac1fde77b4295476.setIcon(icon_9a6933d264aa4c138a7351fae1bc1009);
-        
-    
-        var popup_ede742424d5d42e2abccfee7252b24e0 = L.popup({"maxWidth": "100%"});
+        var popup_bc307203a9d34a9fb233d524c12428f0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ab37d9cfd0b9452d8d022c9f37a39945 = $(`<div id="html_ab37d9cfd0b9452d8d022c9f37a39945" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_ede742424d5d42e2abccfee7252b24e0.setContent(html_ab37d9cfd0b9452d8d022c9f37a39945);
+            var html_92bab959682c457b9894bb283db8cdd4 = $(`<div id="html_92bab959682c457b9894bb283db8cdd4" style="width: 100.0%; height: 100.0%;">1604.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_bc307203a9d34a9fb233d524c12428f0.setContent(html_92bab959682c457b9894bb283db8cdd4);
         
 
-        marker_14cecffa0fa24ad4ac1fde77b4295476.bindPopup(popup_ede742424d5d42e2abccfee7252b24e0)
+        circle_marker_4ea536da48b64d1ba883ab9f01aa969d.bindPopup(popup_bc307203a9d34a9fb233d524c12428f0)
         ;
 
         
     
     
-            var marker_57c3843eb716464480cb93df76a918e5 = L.marker(
+            var circle_marker_34e07b16558448cb913cd89882d8316e = L.circleMarker(
                 [41.419899, -122.2009964],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_59c3171f13ca44f2bfdcd4c3b5a72245 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_57c3843eb716464480cb93df76a918e5.setIcon(icon_59c3171f13ca44f2bfdcd4c3b5a72245);
-        
-    
-        var popup_1d01bf3d6de64079b02ae50273d9c0b7 = L.popup({"maxWidth": "100%"});
+        var popup_c4e1f21de59b4f7894c09107326e0eb9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a4b123290200453791e42c7ae381347d = $(`<div id="html_a4b123290200453791e42c7ae381347d" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_1d01bf3d6de64079b02ae50273d9c0b7.setContent(html_a4b123290200453791e42c7ae381347d);
+            var html_78cc5eb23f044039a3d344de2750e549 = $(`<div id="html_78cc5eb23f044039a3d344de2750e549" style="width: 100.0%; height: 100.0%;">4317.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_c4e1f21de59b4f7894c09107326e0eb9.setContent(html_78cc5eb23f044039a3d344de2750e549);
         
 
-        marker_57c3843eb716464480cb93df76a918e5.bindPopup(popup_1d01bf3d6de64079b02ae50273d9c0b7)
+        circle_marker_34e07b16558448cb913cd89882d8316e.bindPopup(popup_c4e1f21de59b4f7894c09107326e0eb9)
         ;
 
         
     
     
-            var marker_cf6ef350549c4617bccd682c27ca8dfe = L.marker(
+            var circle_marker_f45d50314bd64a1a82257b41d3fe0ec3 = L.circleMarker(
                 [41.1778984, -121.4410019],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_a2c6cdfba6324dd588aedd85064f8cd6 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_cf6ef350549c4617bccd682c27ca8dfe.setIcon(icon_a2c6cdfba6324dd588aedd85064f8cd6);
-        
-    
-        var popup_54c91c864a6643dab993384da8dd86ed = L.popup({"maxWidth": "100%"});
+        var popup_daf105873c64402c928fc620c323ef4e = L.popup({"maxWidth": "100%"});
 
         
-            var html_594fa2944d9d4d15adb6f563cc6d7997 = $(`<div id="html_594fa2944d9d4d15adb6f563cc6d7997" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_54c91c864a6643dab993384da8dd86ed.setContent(html_594fa2944d9d4d15adb6f563cc6d7997);
+            var html_e77ee2163c144291a7cb60a7d4aa02b3 = $(`<div id="html_e77ee2163c144291a7cb60a7d4aa02b3" style="width: 100.0%; height: 100.0%;">1174.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_daf105873c64402c928fc620c323ef4e.setContent(html_e77ee2163c144291a7cb60a7d4aa02b3);
         
 
-        marker_cf6ef350549c4617bccd682c27ca8dfe.bindPopup(popup_54c91c864a6643dab993384da8dd86ed)
+        circle_marker_f45d50314bd64a1a82257b41d3fe0ec3.bindPopup(popup_daf105873c64402c928fc620c323ef4e)
         ;
 
         
     
     
-            var marker_089b3af26bdc469dada3383d9bd09e33 = L.marker(
+            var circle_marker_cadd094355814757ab5b9459f6da32bb = L.circleMarker(
                 [40.9548988, -121.3610001],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_4190877dfcb347bea3c6f0909686a0cf = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_089b3af26bdc469dada3383d9bd09e33.setIcon(icon_4190877dfcb347bea3c6f0909686a0cf);
-        
-    
-        var popup_812a52431af548358fcae0f84a199a44 = L.popup({"maxWidth": "100%"});
+        var popup_4209d06aaf36454a833446c52e4c997c = L.popup({"maxWidth": "100%"});
 
         
-            var html_adcde0ea60c342a28e66058c6da4af79 = $(`<div id="html_adcde0ea60c342a28e66058c6da4af79" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_812a52431af548358fcae0f84a199a44.setContent(html_adcde0ea60c342a28e66058c6da4af79);
+            var html_fe879b3f5a0142d294a7c57fda6cb9da = $(`<div id="html_fe879b3f5a0142d294a7c57fda6cb9da" style="width: 100.0%; height: 100.0%;">1259.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_4209d06aaf36454a833446c52e4c997c.setContent(html_fe879b3f5a0142d294a7c57fda6cb9da);
         
 
-        marker_089b3af26bdc469dada3383d9bd09e33.bindPopup(popup_812a52431af548358fcae0f84a199a44)
+        circle_marker_cadd094355814757ab5b9459f6da32bb.bindPopup(popup_4209d06aaf36454a833446c52e4c997c)
         ;
 
         
     
     
-            var marker_1b8f52c893614ab38e03c0ff7e1b9934 = L.marker(
+            var circle_marker_338294655ed440bbb5baf284530df632 = L.circleMarker(
                 [40.7798996, -121.6009979],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_d5ba77aaa4c542c19314307df8791da5 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_1b8f52c893614ab38e03c0ff7e1b9934.setIcon(icon_d5ba77aaa4c542c19314307df8791da5);
-        
-    
-        var popup_82772dec8490489aa39944fe45bb0331 = L.popup({"maxWidth": "100%"});
+        var popup_f023847ed28d44d1b132d7ef01b1e590 = L.popup({"maxWidth": "100%"});
 
         
-            var html_4f07f99e31204692a7d09d32114516de = $(`<div id="html_4f07f99e31204692a7d09d32114516de" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_82772dec8490489aa39944fe45bb0331.setContent(html_4f07f99e31204692a7d09d32114516de);
+            var html_21ad7759b3af42999d1873f23d435e6f = $(`<div id="html_21ad7759b3af42999d1873f23d435e6f" style="width: 100.0%; height: 100.0%;">1631.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f023847ed28d44d1b132d7ef01b1e590.setContent(html_21ad7759b3af42999d1873f23d435e6f);
         
 
-        marker_1b8f52c893614ab38e03c0ff7e1b9934.bindPopup(popup_82772dec8490489aa39944fe45bb0331)
+        circle_marker_338294655ed440bbb5baf284530df632.bindPopup(popup_f023847ed28d44d1b132d7ef01b1e590)
         ;
 
         
     
     
-            var marker_c56964c5a9784ce1a967c0ae1ffbb5bd = L.marker(
+            var circle_marker_35d881053ca644d58fe477e115a38741 = L.circleMarker(
                 [40.6799011, -121.5510025],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_771f399dc6e94b469477d06e679bbe56 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_c56964c5a9784ce1a967c0ae1ffbb5bd.setIcon(icon_771f399dc6e94b469477d06e679bbe56);
-        
-    
-        var popup_47b6d611fe7443899f1cc065b48eda41 = L.popup({"maxWidth": "100%"});
+        var popup_2339b743a20c476ea26293fb30b1346f = L.popup({"maxWidth": "100%"});
 
         
-            var html_fec2bc0ef21e49e6aac8f3ba08d60647 = $(`<div id="html_fec2bc0ef21e49e6aac8f3ba08d60647" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_47b6d611fe7443899f1cc065b48eda41.setContent(html_fec2bc0ef21e49e6aac8f3ba08d60647);
+            var html_fa7f10a67f8b4097b9a857051e55466e = $(`<div id="html_fa7f10a67f8b4097b9a857051e55466e" style="width: 100.0%; height: 100.0%;">2191.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_2339b743a20c476ea26293fb30b1346f.setContent(html_fa7f10a67f8b4097b9a857051e55466e);
         
 
-        marker_c56964c5a9784ce1a967c0ae1ffbb5bd.bindPopup(popup_47b6d611fe7443899f1cc065b48eda41)
+        circle_marker_35d881053ca644d58fe477e115a38741.bindPopup(popup_2339b743a20c476ea26293fb30b1346f)
         ;
 
         
     
     
-            var marker_a59745ba9a76445eb1f848baf393e584 = L.marker(
+            var circle_marker_fd88ea919670425a94300e7284cbc1ed = L.circleMarker(
                 [40.6299019, -120.8310013],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_394290a81d7f4d82b731901e624deb98 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_a59745ba9a76445eb1f848baf393e584.setIcon(icon_394290a81d7f4d82b731901e624deb98);
-        
-    
-        var popup_84219f4ba96c4f3385a2fc34fd84fdb3 = L.popup({"maxWidth": "100%"});
+        var popup_009c47a1af884a89ac3957ee7cd1a38f = L.popup({"maxWidth": "100%"});
 
         
-            var html_c69bd1d0a42b4dc9b9ec5664c61c1654 = $(`<div id="html_c69bd1d0a42b4dc9b9ec5664c61c1654" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_84219f4ba96c4f3385a2fc34fd84fdb3.setContent(html_c69bd1d0a42b4dc9b9ec5664c61c1654);
+            var html_3098b463c83946d29db1682fde36ac50 = $(`<div id="html_3098b463c83946d29db1682fde36ac50" style="width: 100.0%; height: 100.0%;">1652.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_009c47a1af884a89ac3957ee7cd1a38f.setContent(html_3098b463c83946d29db1682fde36ac50);
         
 
-        marker_a59745ba9a76445eb1f848baf393e584.bindPopup(popup_84219f4ba96c4f3385a2fc34fd84fdb3)
+        circle_marker_fd88ea919670425a94300e7284cbc1ed.bindPopup(popup_009c47a1af884a89ac3957ee7cd1a38f)
         ;
 
         
     
     
-            var marker_aedc0927358a42bf843e36737cd89f7c = L.marker(
+            var circle_marker_ab86f173435c427c977b481a01f717e5 = L.circleMarker(
                 [40.4919014, -121.5009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_48744362ea1345efaeffea204cac00e2 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_aedc0927358a42bf843e36737cd89f7c.setIcon(icon_48744362ea1345efaeffea204cac00e2);
-        
-    
-        var popup_5d95f9df0dcd4cfc9aca0a7fb3873f63 = L.popup({"maxWidth": "100%"});
+        var popup_a23669539600477699b639a205fd25f3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0b1cef8c9f264f3d84bb97fc677764a0 = $(`<div id="html_0b1cef8c9f264f3d84bb97fc677764a0" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_5d95f9df0dcd4cfc9aca0a7fb3873f63.setContent(html_0b1cef8c9f264f3d84bb97fc677764a0);
+            var html_e75db21e5dc34345b51db5dfde78becc = $(`<div id="html_e75db21e5dc34345b51db5dfde78becc" style="width: 100.0%; height: 100.0%;">3187.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_a23669539600477699b639a205fd25f3.setContent(html_e75db21e5dc34345b51db5dfde78becc);
         
 
-        marker_aedc0927358a42bf843e36737cd89f7c.bindPopup(popup_5d95f9df0dcd4cfc9aca0a7fb3873f63)
+        circle_marker_ab86f173435c427c977b481a01f717e5.bindPopup(popup_a23669539600477699b639a205fd25f3)
         ;
 
         
     
     
-            var marker_743a338200344401bb30495f6a5c44dd = L.marker(
+            var circle_marker_89289b9f0cce45c99ce97d5c799c43d4 = L.circleMarker(
                 [38.9698982, -122.7710037],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_bc8340e5c178465ab24fae1a181e4e79 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_743a338200344401bb30495f6a5c44dd.setIcon(icon_bc8340e5c178465ab24fae1a181e4e79);
-        
-    
-        var popup_7d0a68e41fb24f27819ec93320520d58 = L.popup({"maxWidth": "100%"});
+        var popup_fae9eecfa86d4aa8803bee02003ecd67 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f644e656717f40cba9775544b7b1342e = $(`<div id="html_f644e656717f40cba9775544b7b1342e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_7d0a68e41fb24f27819ec93320520d58.setContent(html_f644e656717f40cba9775544b7b1342e);
+            var html_54a975cc5944478d97429f562b66d287 = $(`<div id="html_54a975cc5944478d97429f562b66d287" style="width: 100.0%; height: 100.0%;">1439.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_fae9eecfa86d4aa8803bee02003ecd67.setContent(html_54a975cc5944478d97429f562b66d287);
         
 
-        marker_743a338200344401bb30495f6a5c44dd.bindPopup(popup_7d0a68e41fb24f27819ec93320520d58)
+        circle_marker_89289b9f0cce45c99ce97d5c799c43d4.bindPopup(popup_fae9eecfa86d4aa8803bee02003ecd67)
         ;
 
         
     
     
-            var marker_d2741cad5acd47b3a680417e9157c986 = L.marker(
+            var circle_marker_22a1d98aa7f34e2ab36c40a8f28bdfc0 = L.circleMarker(
                 [39.3749008, -119.7210007],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_ee0183a0ff3048babb7d0fdf1d825c33 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_d2741cad5acd47b3a680417e9157c986.setIcon(icon_ee0183a0ff3048babb7d0fdf1d825c33);
-        
-    
-        var popup_3e04f77db4374c72b7328d0b8a53c714 = L.popup({"maxWidth": "100%"});
+        var popup_f1c413ab28fa4a599b490cadd8f2b12d = L.popup({"maxWidth": "100%"});
 
         
-            var html_05ff0f4943a94dea9d65a44e44f658fc = $(`<div id="html_05ff0f4943a94dea9d65a44e44f658fc" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_3e04f77db4374c72b7328d0b8a53c714.setContent(html_05ff0f4943a94dea9d65a44e44f658fc);
+            var html_3e5244fbd214499ca633da8950f08304 = $(`<div id="html_3e5244fbd214499ca633da8950f08304" style="width: 100.0%; height: 100.0%;">1415.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f1c413ab28fa4a599b490cadd8f2b12d.setContent(html_3e5244fbd214499ca633da8950f08304);
         
 
-        marker_d2741cad5acd47b3a680417e9157c986.bindPopup(popup_3e04f77db4374c72b7328d0b8a53c714)
+        circle_marker_22a1d98aa7f34e2ab36c40a8f28bdfc0.bindPopup(popup_f1c413ab28fa4a599b490cadd8f2b12d)
         ;
 
         
     
     
-            var marker_b82b9fb0fe9d4dc78eef25b3e74a26ff = L.marker(
+            var circle_marker_ea9d9c68334b4c89a82e360003df8cdb = L.circleMarker(
                 [39.6500015, -107.0309982],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_adfed4bcbcbf4014af4b32ae55393a59 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_b82b9fb0fe9d4dc78eef25b3e74a26ff.setIcon(icon_adfed4bcbcbf4014af4b32ae55393a59);
-        
-    
-        var popup_348e2501826e4ca7b2fffd2117591fc6 = L.popup({"maxWidth": "100%"});
+        var popup_b62c88af179f403b942be1981f92eacb = L.popup({"maxWidth": "100%"});
 
         
-            var html_4c59fb278f974526bcb9caa281b7918f = $(`<div id="html_4c59fb278f974526bcb9caa281b7918f" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_348e2501826e4ca7b2fffd2117591fc6.setContent(html_4c59fb278f974526bcb9caa281b7918f);
+            var html_3b354bbf933247e8aae592eaa8c7d4ae = $(`<div id="html_3b354bbf933247e8aae592eaa8c7d4ae" style="width: 100.0%; height: 100.0%;">2230.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_b62c88af179f403b942be1981f92eacb.setContent(html_3b354bbf933247e8aae592eaa8c7d4ae);
         
 
-        marker_b82b9fb0fe9d4dc78eef25b3e74a26ff.bindPopup(popup_348e2501826e4ca7b2fffd2117591fc6)
+        circle_marker_ea9d9c68334b4c89a82e360003df8cdb.bindPopup(popup_b62c88af179f403b942be1981f92eacb)
         ;
 
         
     
     
-            var marker_63713252d5774f8f9ab7a10419f7d1ad = L.marker(
+            var circle_marker_38503b024fc04fe9934e8ccfa782abc8 = L.circleMarker(
                 [37.9999008, -119.0309982],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_964d71f1991b4a9aaa70c7b7c80bca02 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_63713252d5774f8f9ab7a10419f7d1ad.setIcon(icon_964d71f1991b4a9aaa70c7b7c80bca02);
-        
-    
-        var popup_950adb40592f47aabd7f298f775ece49 = L.popup({"maxWidth": "100%"});
+        var popup_cc91cdb22feb4abc91c9449f93f444fe = L.popup({"maxWidth": "100%"});
 
         
-            var html_76f184cfc9d94e7aacf677085ff3f397 = $(`<div id="html_76f184cfc9d94e7aacf677085ff3f397" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_950adb40592f47aabd7f298f775ece49.setContent(html_76f184cfc9d94e7aacf677085ff3f397);
+            var html_f0b80881dc9b45a7be169fedaddae0e0 = $(`<div id="html_f0b80881dc9b45a7be169fedaddae0e0" style="width: 100.0%; height: 100.0%;">2121.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_cc91cdb22feb4abc91c9449f93f444fe.setContent(html_f0b80881dc9b45a7be169fedaddae0e0);
         
 
-        marker_63713252d5774f8f9ab7a10419f7d1ad.bindPopup(popup_950adb40592f47aabd7f298f775ece49)
+        circle_marker_38503b024fc04fe9934e8ccfa782abc8.bindPopup(popup_cc91cdb22feb4abc91c9449f93f444fe)
         ;
 
         
     
     
-            var marker_cdfb32b4a0814ea3a258b316e525a9c6 = L.marker(
+            var circle_marker_e366f6d262ba4c8d882ddb886e404dc8 = L.circleMarker(
                 [38.9700012, -112.5009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_653b9baf93ea45ba9e8ebbbac9d9096c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_cdfb32b4a0814ea3a258b316e525a9c6.setIcon(icon_653b9baf93ea45ba9e8ebbbac9d9096c);
-        
-    
-        var popup_2056b6c0cdf74e39b10d9d2b3bc05532 = L.popup({"maxWidth": "100%"});
+        var popup_65c0b6b08b3a4e6786a6a7a0cc70108e = L.popup({"maxWidth": "100%"});
 
         
-            var html_e7eede0be6df4610b6f25d42ea0cb515 = $(`<div id="html_e7eede0be6df4610b6f25d42ea0cb515" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_2056b6c0cdf74e39b10d9d2b3bc05532.setContent(html_e7eede0be6df4610b6f25d42ea0cb515);
+            var html_153749b0f77245cbb52153f7cb53d619 = $(`<div id="html_153749b0f77245cbb52153f7cb53d619" style="width: 100.0%; height: 100.0%;">1800.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_65c0b6b08b3a4e6786a6a7a0cc70108e.setContent(html_153749b0f77245cbb52153f7cb53d619);
         
 
-        marker_cdfb32b4a0814ea3a258b316e525a9c6.bindPopup(popup_2056b6c0cdf74e39b10d9d2b3bc05532)
+        circle_marker_e366f6d262ba4c8d882ddb886e404dc8.bindPopup(popup_65c0b6b08b3a4e6786a6a7a0cc70108e)
         ;
 
         
     
     
-            var marker_90c80affd54c4fa4a6052b776b85d06f = L.marker(
+            var circle_marker_ac3d65b6a4474f98a6990e9e523bb438 = L.circleMarker(
                 [37.8799019, -119.0009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_31ce6124f1db4bc0a3b33afc870416f7 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_90c80affd54c4fa4a6052b776b85d06f.setIcon(icon_31ce6124f1db4bc0a3b33afc870416f7);
-        
-    
-        var popup_111a45aba7174e61a97db4ccde0906b8 = L.popup({"maxWidth": "100%"});
+        var popup_4353da6324174483a2b250f17573b051 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7a88fdaa0f5c4478b21711a80c8a133d = $(`<div id="html_7a88fdaa0f5c4478b21711a80c8a133d" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_111a45aba7174e61a97db4ccde0906b8.setContent(html_7a88fdaa0f5c4478b21711a80c8a133d);
+            var html_295f90d5ef1844bd9ab71d9a66c84b6f = $(`<div id="html_295f90d5ef1844bd9ab71d9a66c84b6f" style="width: 100.0%; height: 100.0%;">2796.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_4353da6324174483a2b250f17573b051.setContent(html_295f90d5ef1844bd9ab71d9a66c84b6f);
         
 
-        marker_90c80affd54c4fa4a6052b776b85d06f.bindPopup(popup_111a45aba7174e61a97db4ccde0906b8)
+        circle_marker_ac3d65b6a4474f98a6990e9e523bb438.bindPopup(popup_4353da6324174483a2b250f17573b051)
         ;
 
         
     
     
-            var marker_a00e7d9d0fe04215bcd14e03a918d9b8 = L.marker(
+            var circle_marker_8266bc491b664c328505033a368b324d = L.circleMarker(
                 [37.6918983, -119.0210037],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_8e04aaf10d0b4acbb7f5b758fd1fec59 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_a00e7d9d0fe04215bcd14e03a918d9b8.setIcon(icon_8e04aaf10d0b4acbb7f5b758fd1fec59);
-        
-    
-        var popup_dc3750bc492546c886b80d2003c6c1ee = L.popup({"maxWidth": "100%"});
+        var popup_f0dd912f7e6d480a9fd58957f8f31026 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e32b0f5a8de9484186a77b05d423b837 = $(`<div id="html_e32b0f5a8de9484186a77b05d423b837" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_dc3750bc492546c886b80d2003c6c1ee.setContent(html_e32b0f5a8de9484186a77b05d423b837);
+            var html_0dabdfa755974f569e69941e4bc99e47 = $(`<div id="html_0dabdfa755974f569e69941e4bc99e47" style="width: 100.0%; height: 100.0%;">2629.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f0dd912f7e6d480a9fd58957f8f31026.setContent(html_0dabdfa755974f569e69941e4bc99e47);
         
 
-        marker_a00e7d9d0fe04215bcd14e03a918d9b8.bindPopup(popup_dc3750bc492546c886b80d2003c6c1ee)
+        circle_marker_8266bc491b664c328505033a368b324d.bindPopup(popup_f0dd912f7e6d480a9fd58957f8f31026)
         ;
 
         
     
     
-            var marker_839ae6418d1147718c4b2a7432a5526f = L.marker(
+            var circle_marker_0baae9422b074850b580e9fcefb36aef = L.circleMarker(
                 [37.6999016, -118.8710022],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_cb24c98ceeb849c78f9d86d0df0a8b3f = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_839ae6418d1147718c4b2a7432a5526f.setIcon(icon_cb24c98ceeb849c78f9d86d0df0a8b3f);
-        
-    
-        var popup_f1c107a6f2db49a18b42b29713d3613c = L.popup({"maxWidth": "100%"});
+        var popup_e2d4df39d29348f789326abc1a097744 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3e26dee0dfb142dcace6a4444a524a52 = $(`<div id="html_3e26dee0dfb142dcace6a4444a524a52" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_f1c107a6f2db49a18b42b29713d3613c.setContent(html_3e26dee0dfb142dcace6a4444a524a52);
+            var html_027109487e9641e4a207b929f9f2ac3d = $(`<div id="html_027109487e9641e4a207b929f9f2ac3d" style="width: 100.0%; height: 100.0%;">3390.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_e2d4df39d29348f789326abc1a097744.setContent(html_027109487e9641e4a207b929f9f2ac3d);
         
 
-        marker_839ae6418d1147718c4b2a7432a5526f.bindPopup(popup_f1c107a6f2db49a18b42b29713d3613c)
+        circle_marker_0baae9422b074850b580e9fcefb36aef.bindPopup(popup_e2d4df39d29348f789326abc1a097744)
         ;
 
         
     
     
-            var marker_f532bdca3cc84214913423362a1c6c26 = L.marker(
+            var circle_marker_832e69f65f454c7e8ea81d7b769f0328 = L.circleMarker(
                 [37.5798988, -119.0510025],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_c98a6389e56c482b8abd0bbd22bf15f0 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_f532bdca3cc84214913423362a1c6c26.setIcon(icon_c98a6389e56c482b8abd0bbd22bf15f0);
-        
-    
-        var popup_1a1fb12cede143eb9430caf1fc75af22 = L.popup({"maxWidth": "100%"});
+        var popup_0dd5972287664ac7adb00defc90ed06a = L.popup({"maxWidth": "100%"});
 
         
-            var html_1fddb14762044635a2f1298fa1396003 = $(`<div id="html_1fddb14762044635a2f1298fa1396003" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_1a1fb12cede143eb9430caf1fc75af22.setContent(html_1fddb14762044635a2f1298fa1396003);
+            var html_7f8a09ebe61b49b2aea73b6e87fef3ca = $(`<div id="html_7f8a09ebe61b49b2aea73b6e87fef3ca" style="width: 100.0%; height: 100.0%;">2748.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_0dd5972287664ac7adb00defc90ed06a.setContent(html_7f8a09ebe61b49b2aea73b6e87fef3ca);
         
 
-        marker_f532bdca3cc84214913423362a1c6c26.bindPopup(popup_1a1fb12cede143eb9430caf1fc75af22)
+        circle_marker_832e69f65f454c7e8ea81d7b769f0328.bindPopup(popup_0dd5972287664ac7adb00defc90ed06a)
         ;
 
         
     
     
-            var marker_6040a1b0215f40e59f125a9b33bc048e = L.marker(
+            var circle_marker_f416e582aeab4509839f90a6376e0a1f = L.circleMarker(
                 [37.0199013, -117.4509964],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_0a8903053a844ce08a154e20a40400d2 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_6040a1b0215f40e59f125a9b33bc048e.setIcon(icon_0a8903053a844ce08a154e20a40400d2);
-        
-    
-        var popup_9657329180664bf7bf995532cb41a691 = L.popup({"maxWidth": "100%"});
+        var popup_81968151b7264bba9f1f320753e1a25c = L.popup({"maxWidth": "100%"});
 
         
-            var html_7c44704845f74028ad3eff1727e7375e = $(`<div id="html_7c44704845f74028ad3eff1727e7375e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_9657329180664bf7bf995532cb41a691.setContent(html_7c44704845f74028ad3eff1727e7375e);
+            var html_82ed10a565ce475aac8ec2dcbfc0079c = $(`<div id="html_82ed10a565ce475aac8ec2dcbfc0079c" style="width: 100.0%; height: 100.0%;">752.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_81968151b7264bba9f1f320753e1a25c.setContent(html_82ed10a565ce475aac8ec2dcbfc0079c);
         
 
-        marker_6040a1b0215f40e59f125a9b33bc048e.bindPopup(popup_9657329180664bf7bf995532cb41a691)
+        circle_marker_f416e582aeab4509839f90a6376e0a1f.bindPopup(popup_81968151b7264bba9f1f320753e1a25c)
         ;
 
         
     
     
-            var marker_555968465b4e40598781ec6b95bd30cd = L.marker(
+            var circle_marker_d768dc97b1bb4168bac0288976668fe6 = L.circleMarker(
                 [37.5800018, -112.6709976],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_c2f239c069b144eea6c0dd9b073ee558 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_555968465b4e40598781ec6b95bd30cd.setIcon(icon_c2f239c069b144eea6c0dd9b073ee558);
-        
-    
-        var popup_98a3b6fe9ba74bbf8cdc55ac72af4b4f = L.popup({"maxWidth": "100%"});
+        var popup_e9e313fa0bd04709bcf0e2e2e24e2fb9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a5373a5415474ed3ba7946370caa6b58 = $(`<div id="html_a5373a5415474ed3ba7946370caa6b58" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_98a3b6fe9ba74bbf8cdc55ac72af4b4f.setContent(html_a5373a5415474ed3ba7946370caa6b58);
+            var html_9c237479895b47c39100766f3f85adb8 = $(`<div id="html_9c237479895b47c39100766f3f85adb8" style="width: 100.0%; height: 100.0%;">2840.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_e9e313fa0bd04709bcf0e2e2e24e2fb9.setContent(html_9c237479895b47c39100766f3f85adb8);
         
 
-        marker_555968465b4e40598781ec6b95bd30cd.bindPopup(popup_98a3b6fe9ba74bbf8cdc55ac72af4b4f)
+        circle_marker_d768dc97b1bb4168bac0288976668fe6.bindPopup(popup_e9e313fa0bd04709bcf0e2e2e24e2fb9)
         ;
 
         
     
     
-            var marker_db53a54962d14c33b128d48af2987d6d = L.marker(
+            var circle_marker_0b2c9e4da299466d80d75523645bc51f = L.circleMarker(
                 [37.257, -113.6210022],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_0c8b4990aa3a4a539d3ec71c40f0b38e = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_db53a54962d14c33b128d48af2987d6d.setIcon(icon_0c8b4990aa3a4a539d3ec71c40f0b38e);
-        
-    
-        var popup_d12ef36ed8d7495080de088cafa36bb6 = L.popup({"maxWidth": "100%"});
+        var popup_37c628392d6b4814a402ff92f44a7a69 = L.popup({"maxWidth": "100%"});
 
         
-            var html_cb44b7b3ffa14bdc80eb00e2dc64407e = $(`<div id="html_cb44b7b3ffa14bdc80eb00e2dc64407e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_d12ef36ed8d7495080de088cafa36bb6.setContent(html_cb44b7b3ffa14bdc80eb00e2dc64407e);
+            var html_9bd47b36508040bb84e9e581e8889ba1 = $(`<div id="html_9bd47b36508040bb84e9e581e8889ba1" style="width: 100.0%; height: 100.0%;">1465.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_37c628392d6b4814a402ff92f44a7a69.setContent(html_9bd47b36508040bb84e9e581e8889ba1);
         
 
-        marker_db53a54962d14c33b128d48af2987d6d.bindPopup(popup_d12ef36ed8d7495080de088cafa36bb6)
+        circle_marker_0b2c9e4da299466d80d75523645bc51f.bindPopup(popup_37c628392d6b4814a402ff92f44a7a69)
         ;
 
         
     
     
-            var marker_c39fecd0055146f0b0f9092779563eb5 = L.marker(
+            var circle_marker_62807d97ac54463f8cfb2f2ef31ed791 = L.circleMarker(
                 [37.3279991, -112.401001],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_d03b5a3fb99847159f3fbc71ad75fe31 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_c39fecd0055146f0b0f9092779563eb5.setIcon(icon_d03b5a3fb99847159f3fbc71ad75fe31);
-        
-    
-        var popup_00340ce54aaf4e1e92bfc1daac02836f = L.popup({"maxWidth": "100%"});
+        var popup_1b3c544d6353416a8d070a21b088b5c1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3b48d5cd92154a1fae044bcb25c4de13 = $(`<div id="html_3b48d5cd92154a1fae044bcb25c4de13" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_00340ce54aaf4e1e92bfc1daac02836f.setContent(html_3b48d5cd92154a1fae044bcb25c4de13);
+            var html_b46f09bd2db84d6589940999f0d3e3a4 = $(`<div id="html_b46f09bd2db84d6589940999f0d3e3a4" style="width: 100.0%; height: 100.0%;">2135.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_1b3c544d6353416a8d070a21b088b5c1.setContent(html_b46f09bd2db84d6589940999f0d3e3a4);
         
 
-        marker_c39fecd0055146f0b0f9092779563eb5.bindPopup(popup_00340ce54aaf4e1e92bfc1daac02836f)
+        circle_marker_62807d97ac54463f8cfb2f2ef31ed791.bindPopup(popup_1b3c544d6353416a8d070a21b088b5c1)
         ;
 
         
     
     
-            var marker_b83d5b2da2fd4bad99a43ffb34d953e2 = L.marker(
+            var circle_marker_0f2b0d331bc34c6e94c8a4645ac68768 = L.circleMarker(
                 [36.3578987, -118.3209991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_b624f8a90ba74ee5b555ea7926876c9a = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_b83d5b2da2fd4bad99a43ffb34d953e2.setIcon(icon_b624f8a90ba74ee5b555ea7926876c9a);
-        
-    
-        var popup_4c7a2b514f604407b784c835acf69797 = L.popup({"maxWidth": "100%"});
+        var popup_b0710903e0ed4efaaacf923997fab70a = L.popup({"maxWidth": "100%"});
 
         
-            var html_20e1e9704aa644d7888b522321937a5a = $(`<div id="html_20e1e9704aa644d7888b522321937a5a" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_4c7a2b514f604407b784c835acf69797.setContent(html_20e1e9704aa644d7888b522321937a5a);
+            var html_7369766cbefc42179823e9faadc4d067 = $(`<div id="html_7369766cbefc42179823e9faadc4d067" style="width: 100.0%; height: 100.0%;">2886.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_b0710903e0ed4efaaacf923997fab70a.setContent(html_7369766cbefc42179823e9faadc4d067);
         
 
-        marker_b83d5b2da2fd4bad99a43ffb34d953e2.bindPopup(popup_4c7a2b514f604407b784c835acf69797)
+        circle_marker_0f2b0d331bc34c6e94c8a4645ac68768.bindPopup(popup_b0710903e0ed4efaaacf923997fab70a)
         ;
 
         
     
     
-            var marker_51524b5fc2584dbc8ae15a9103260a8b = L.marker(
+            var circle_marker_e2ae4e2eaf7e4bd6881e96341b42a311 = L.circleMarker(
                 [36.0298996, -117.8209991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_85f4c8245131469b871c5f7a2c17aaac = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_51524b5fc2584dbc8ae15a9103260a8b.setIcon(icon_85f4c8245131469b871c5f7a2c17aaac);
-        
-    
-        var popup_2919561f0f6b4495871d865937639d86 = L.popup({"maxWidth": "100%"});
+        var popup_b1791e1cd6894edcb1a4c7345ca13996 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c0e532386b834102ba100131bda1a57d = $(`<div id="html_c0e532386b834102ba100131bda1a57d" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_2919561f0f6b4495871d865937639d86.setContent(html_c0e532386b834102ba100131bda1a57d);
+            var html_9d1a7fcb6eac4c3491fa1274bfcf49ba = $(`<div id="html_9d1a7fcb6eac4c3491fa1274bfcf49ba" style="width: 100.0%; height: 100.0%;">2400.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_b1791e1cd6894edcb1a4c7345ca13996.setContent(html_9d1a7fcb6eac4c3491fa1274bfcf49ba);
         
 
-        marker_51524b5fc2584dbc8ae15a9103260a8b.bindPopup(popup_2919561f0f6b4495871d865937639d86)
+        circle_marker_e2ae4e2eaf7e4bd6881e96341b42a311.bindPopup(popup_b1791e1cd6894edcb1a4c7345ca13996)
         ;
 
         
     
     
-            var marker_65de7316b4234faca486a2543cf90ea1 = L.marker(
+            var circle_marker_d226e2f4715342069c8e52b75247722c = L.circleMarker(
                 [36.3800011, -113.1309967],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_eb8103a5331f4d4ca5ef3a0d01218dc4 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_65de7316b4234faca486a2543cf90ea1.setIcon(icon_eb8103a5331f4d4ca5ef3a0d01218dc4);
-        
-    
-        var popup_487494bdb8744d83a3fa478889decd4f = L.popup({"maxWidth": "100%"});
+        var popup_d31d29e93bc747f789f65a6e42c23ed1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_071a3bc4b0004bed96ed14f25b709332 = $(`<div id="html_071a3bc4b0004bed96ed14f25b709332" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_487494bdb8744d83a3fa478889decd4f.setContent(html_071a3bc4b0004bed96ed14f25b709332);
+            var html_7da8723716a242f3969fee8bb864e432 = $(`<div id="html_7da8723716a242f3969fee8bb864e432" style="width: 100.0%; height: 100.0%;">1555.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_d31d29e93bc747f789f65a6e42c23ed1.setContent(html_7da8723716a242f3969fee8bb864e432);
         
 
-        marker_65de7316b4234faca486a2543cf90ea1.bindPopup(popup_487494bdb8744d83a3fa478889decd4f)
+        circle_marker_d226e2f4715342069c8e52b75247722c.bindPopup(popup_d31d29e93bc747f789f65a6e42c23ed1)
         ;
 
         
     
     
-            var marker_9d45827aea11460da0729ee26f7da080 = L.marker(
+            var circle_marker_16d28d751de6483aac180430f6bd8a16 = L.circleMarker(
                 [34.75, -116.6210022],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_72bc30a3ce2c44e8beb7212d67139360 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_9d45827aea11460da0729ee26f7da080.setIcon(icon_72bc30a3ce2c44e8beb7212d67139360);
-        
-    
-        var popup_7f2428bb98de466c9e034dbb76de91b2 = L.popup({"maxWidth": "100%"});
+        var popup_2fcff4178b3c410381d0b66eb6b747e9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0d3cfe7d0ece479ca2c7abfe922c1616 = $(`<div id="html_0d3cfe7d0ece479ca2c7abfe922c1616" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_7f2428bb98de466c9e034dbb76de91b2.setContent(html_0d3cfe7d0ece479ca2c7abfe922c1616);
+            var html_e3ab565170a74a37a38c63e26b7fb64c = $(`<div id="html_e3ab565170a74a37a38c63e26b7fb64c" style="width: 100.0%; height: 100.0%;">1495.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_2fcff4178b3c410381d0b66eb6b747e9.setContent(html_e3ab565170a74a37a38c63e26b7fb64c);
         
 
-        marker_9d45827aea11460da0729ee26f7da080.bindPopup(popup_7f2428bb98de466c9e034dbb76de91b2)
+        circle_marker_16d28d751de6483aac180430f6bd8a16.bindPopup(popup_2fcff4178b3c410381d0b66eb6b747e9)
         ;
 
         
     
     
-            var marker_42c124bcb6e7445f9d27c533e2fa2cd0 = L.marker(
+            var circle_marker_3284e3d38f104ff4be5657e039c95784 = L.circleMarker(
                 [35.8699989, -106.5709991],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_9d9e876aa7084fc6bbc95380a8b59e53 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_42c124bcb6e7445f9d27c533e2fa2cd0.setIcon(icon_9d9e876aa7084fc6bbc95380a8b59e53);
-        
-    
-        var popup_1c5830707680408eb7202ac9853cefc9 = L.popup({"maxWidth": "100%"});
+        var popup_7f394440048e4338bf2132f816299eb8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_efc22e054ace4c91acdb5c1b38d2a13e = $(`<div id="html_efc22e054ace4c91acdb5c1b38d2a13e" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_1c5830707680408eb7202ac9853cefc9.setContent(html_efc22e054ace4c91acdb5c1b38d2a13e);
+            var html_623c45504bc84742b1bc815a71fcdb86 = $(`<div id="html_623c45504bc84742b1bc815a71fcdb86" style="width: 100.0%; height: 100.0%;">3430.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_7f394440048e4338bf2132f816299eb8.setContent(html_623c45504bc84742b1bc815a71fcdb86);
         
 
-        marker_42c124bcb6e7445f9d27c533e2fa2cd0.bindPopup(popup_1c5830707680408eb7202ac9853cefc9)
+        circle_marker_3284e3d38f104ff4be5657e039c95784.bindPopup(popup_7f394440048e4338bf2132f816299eb8)
         ;
 
         
     
     
-            var marker_ca5ac3b42d2f4798af0595609e606a83 = L.marker(
+            var circle_marker_0be1022d3bf345129f2a7309e3bd630c = L.circleMarker(
                 [35.3699989, -111.5009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_338974bad4124246bff6b2919759508d = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_ca5ac3b42d2f4798af0595609e606a83.setIcon(icon_338974bad4124246bff6b2919759508d);
-        
-    
-        var popup_63cf11fb4b784d50bb8b4569a82813d3 = L.popup({"maxWidth": "100%"});
+        var popup_f2d18bfa62d14686a7f49f99887bd1f8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9fab69ee2e0243f6af6a1450bc4df03b = $(`<div id="html_9fab69ee2e0243f6af6a1450bc4df03b" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_63cf11fb4b784d50bb8b4569a82813d3.setContent(html_9fab69ee2e0243f6af6a1450bc4df03b);
+            var html_f1134478db6d49c69844c4ce6e9958c7 = $(`<div id="html_f1134478db6d49c69844c4ce6e9958c7" style="width: 100.0%; height: 100.0%;">2447.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_f2d18bfa62d14686a7f49f99887bd1f8.setContent(html_f1134478db6d49c69844c4ce6e9958c7);
         
 
-        marker_ca5ac3b42d2f4798af0595609e606a83.bindPopup(popup_63cf11fb4b784d50bb8b4569a82813d3)
+        circle_marker_0be1022d3bf345129f2a7309e3bd630c.bindPopup(popup_f2d18bfa62d14686a7f49f99887bd1f8)
         ;
 
         
     
     
-            var marker_62caf4d5fd984e2d9853101b13e59d8d = L.marker(
+            var circle_marker_317c262bed144241816d2cf318994eb9 = L.circleMarker(
                 [34.5499992, -115.7809982],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_8a0dc698e7c94983aa947003ac6485b5 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_62caf4d5fd984e2d9853101b13e59d8d.setIcon(icon_8a0dc698e7c94983aa947003ac6485b5);
-        
-    
-        var popup_0a2b45ec871049dc89dd7f447ea34c45 = L.popup({"maxWidth": "100%"});
+        var popup_c740738b3aba41f0acfa9aa203e2888e = L.popup({"maxWidth": "100%"});
 
         
-            var html_b747402b96e640b585dfbb24baff0249 = $(`<div id="html_b747402b96e640b585dfbb24baff0249" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_0a2b45ec871049dc89dd7f447ea34c45.setContent(html_b747402b96e640b585dfbb24baff0249);
+            var html_5924219172a846558ff948534a23e745 = $(`<div id="html_5924219172a846558ff948534a23e745" style="width: 100.0%; height: 100.0%;">288.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_c740738b3aba41f0acfa9aa203e2888e.setContent(html_5924219172a846558ff948534a23e745);
         
 
-        marker_62caf4d5fd984e2d9853101b13e59d8d.bindPopup(popup_0a2b45ec871049dc89dd7f447ea34c45)
+        circle_marker_317c262bed144241816d2cf318994eb9.bindPopup(popup_c740738b3aba41f0acfa9aa203e2888e)
         ;
 
         
     
     
-            var marker_c691dcc99ba54388ba9b8e80725e49fc = L.marker(
+            var circle_marker_87e2580ac8b5491ca7e5fe6d8b9336f6 = L.circleMarker(
                 [34.7999992, -108.0009995],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_ee1f6ae6001541ffa78c0871852f8888 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_c691dcc99ba54388ba9b8e80725e49fc.setIcon(icon_ee1f6ae6001541ffa78c0871852f8888);
-        
-    
-        var popup_80d12b49bd9c4ac9bc411164a30d6312 = L.popup({"maxWidth": "100%"});
+        var popup_0681ec84ac0c467e91f21122d2cc642f = L.popup({"maxWidth": "100%"});
 
         
-            var html_2beecbe4bb2b43218cdc4aa30bd64e54 = $(`<div id="html_2beecbe4bb2b43218cdc4aa30bd64e54" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_80d12b49bd9c4ac9bc411164a30d6312.setContent(html_2beecbe4bb2b43218cdc4aa30bd64e54);
+            var html_b2e03df5d2f94cddbc2823b8edf0e7af = $(`<div id="html_b2e03df5d2f94cddbc2823b8edf0e7af" style="width: 100.0%; height: 100.0%;">2550.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_0681ec84ac0c467e91f21122d2cc642f.setContent(html_b2e03df5d2f94cddbc2823b8edf0e7af);
         
 
-        marker_c691dcc99ba54388ba9b8e80725e49fc.bindPopup(popup_80d12b49bd9c4ac9bc411164a30d6312)
+        circle_marker_87e2580ac8b5491ca7e5fe6d8b9336f6.bindPopup(popup_0681ec84ac0c467e91f21122d2cc642f)
         ;
 
         
     
     
-            var marker_7e53eceaf1bb4c759f5ad265ac0e5678 = L.marker(
+            var circle_marker_77475c14404449bcb8db438b93dc0802 = L.circleMarker(
                 [33.7801018, -105.9309998],
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c47edec86e45467f951aa5766cf8b125);
         
     
-            var icon_54615e6cb4684a3f94b7c918c78b5f2b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
-            );
-            marker_7e53eceaf1bb4c759f5ad265ac0e5678.setIcon(icon_54615e6cb4684a3f94b7c918c78b5f2b);
-        
-    
-        var popup_5fa9c1e769cf4183abdcb932050462e9 = L.popup({"maxWidth": "100%"});
+        var popup_771c72093d124fb99e2305f627a3c5f1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_46b61ce1b24a4361885889f3da815cfc = $(`<div id="html_46b61ce1b24a4361885889f3da815cfc" style="width: 100.0%; height: 100.0%;">This is my Fav places in Kuamsi</div>`)[0];
-            popup_5fa9c1e769cf4183abdcb932050462e9.setContent(html_46b61ce1b24a4361885889f3da815cfc);
+            var html_f6b8fdc8249f4617bd21346dd246ba71 = $(`<div id="html_f6b8fdc8249f4617bd21346dd246ba71" style="width: 100.0%; height: 100.0%;">1731.0 This is my Fav places in Kuamsi</div>`)[0];
+            popup_771c72093d124fb99e2305f627a3c5f1.setContent(html_f6b8fdc8249f4617bd21346dd246ba71);
         
 
-        marker_7e53eceaf1bb4c759f5ad265ac0e5678.bindPopup(popup_5fa9c1e769cf4183abdcb932050462e9)
+        circle_marker_77475c14404449bcb8db438b93dc0802.bindPopup(popup_771c72093d124fb99e2305f627a3c5f1)
         ;
 
         
     
-    
-            var feature_group_9a283e72a47141bdb7f8102ca26ac749 = L.featureGroup(
-                {}
-            ).addTo(map_e14ba2871c314ca8bc1a75fed98b7257);
-        
 </script>
